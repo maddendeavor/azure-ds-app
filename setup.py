@@ -1,13 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='python_template',
+    name='azure_ds_app',
     version='0.0',
-    description='Template project for python projects',
+    description='Basic project to deploy a Machine Learning Model on Azure',
     long_description=open('README.md').read(),
     author='Christine Madden',
     license=open('LICENSE').read(),
-    author_email='christine.m.madden19@gmail.com',
+    author_email='',
     packages=['project_name'],
     install_requires=[
     ],

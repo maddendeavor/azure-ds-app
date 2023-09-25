@@ -3,18 +3,15 @@
 [![docstring_coverage](/doc/docstringcoverage_badge.svg)](/doc/docstringcoverage.txt)
 [![doc_style](https://img.shields.io/badge/%20style-numpy-459db9.svg)](https://numpydoc.readthedocs.io/en/latest/format.html)
 
-# Project Name
-Overview that explains **what** this project is about.
+# azure-ds-app
+This project is using Azure Functions to develop a basic Data Science app.
 
 ## Installation/Build Instructions
-If appropriate, explain **how** to install/build this project.
+First you must create an azure account with the correct credentials.
 
 ## References
-* Links to where the reference documents live, including API reference docs.
-* Links to important things like the JIRA project associated with this git project.
-
-## Release History
-If appropriate, describe the revision history.
+* https://learn.microsoft.com/en-us/azure/azure-functions/machine-learning-pytorch?tabs=bash
+* https://learn.microsoft.com/en-us/azure/azure-functions/functions-machine-learning-tensorflow?tabs=bash
 
 ## Contributing
 * To contribute to the repository use the following:
