@@ -8,6 +8,7 @@ This project is using Azure Functions to develop a basic Data Science app.
 
 ## Installation/Build Instructions
 First you must create an azure account with the correct credentials.
+And install [Azure Core function tools](https://learn.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=linux%2Cisolated-process%2Cnode-v4%2Cpython-v2%2Chttp-trigger%2Ccontainer-apps&pivots=programming-language-csharp#install-the-azure-functions-core-tools)
 
 ## References
 * https://learn.microsoft.com/en-us/azure/azure-functions/machine-learning-pytorch?tabs=bash

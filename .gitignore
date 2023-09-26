@@ -1,120 +1,14 @@
-################################################################################
-##  GIT Ignore
-################################################################################
-
-######################
-## directories
-######################
-.svn/
-*[Bb]in/
-[Dd]ebug/
-gen/
-[Oo]bj/
-[Oo]ut/
-[Rr]elease/
-*[Ss]ettings/
-[Dd]ata/
-*venv*
-*[Bb]uild*
-
-######################
-## temporary files
-######################
-*.bak
-*.tmp
-.tags
-
-########################
-## compiler output files
-########################
-*.a
-*.app
-*.bin
-*.crun
-*.d
-*.dll
-*.dylib
-*.elf
-*.exe
-*.gch
-*.gcno
-*.hex
-*.lib
-*.lo
-*.lst
-*.map
-*.o
-*.obj
-*.out
-*.pch
-*.slo
-*.so
-
-#####################
-## logs and Db files
-#####################
-*.log
-*.sql
-*.sqlite
-
-################################
-## archive & compression files
-################################
-*.7z
-*.bz2
-*.cab
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-################
-## Intellij IDE
-################
-.idea/
-
-################
-## Eclipse
-################
-##  ref: https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
-bin/
-tmp/
-*~.nib
-.metadata
-local.properties
-.recommenders
-.externalToolBuilders/
-*.launch
-*.pydevproject
-.cproject
-.factorypath
-.target
-.tern-project
-.springBeams
-.recommenders/
-.cache-main
-.scala_dependencies
-.worksheet
-
-####################
-## Python
-####################
-# Created by https://www.gitignore.io/api/python
-# also see:  https://github.com/github/gitignore/blob/master/Python.gitignore
-
-### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__
+__pycache__/
 *.py[cod]
 *$py.class
-.ipynb_checkpoints
+
+# C extensions
+*.so
 
 # Distribution / packaging
 .Python
-*[Bb]uild/*
+build/
 develop-eggs/
 dist/
 downloads/
@@ -126,9 +20,12 @@ parts/
 sdist/
 var/
 wheels/
+pip-wheel-metadata/
+share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -143,6 +40,7 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+.nox/
 .coverage
 .coverage.*
 .cache
@@ -150,23 +48,94 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
 *.pot
 
-# Django:
+# Django stuff:
+*.log
 local_settings.py
+db.sqlite3
 
-# JupyterHub:
-jupyterhub*
+# Flask stuff:
+instance/
+.webassets-cache
 
-#################
-## Matlab
-################
-# autosave
-*.asv
+# Scrapy stuff:
+.scrapy
 
-#################
-## Next program
-################
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don’t work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+
+# Azurite artifacts
+__blobstorage__
+__queuestorage__
+__azurite_db*__.json
+.python_packages
+
+# Intellij
+.idea/
+
+# VSCode
+.vscode/
