@@ -1,5 +1,6 @@
 import azure.functions as func
 import logging
+# from .azure_ds_app.predict import predict_image_from_url
 
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
