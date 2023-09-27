@@ -30,7 +30,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -e .[dev]
+          pip install -r requirements.txt
           echo "All required dependencies have been installed."
 
       - name: Lint style check
