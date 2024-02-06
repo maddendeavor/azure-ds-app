@@ -1,6 +1,6 @@
 ..  Doc can be modified but should contain the root `toctree` directive.
 
-Project_Name Documentation
+Azure DS App Documentation
 ==========================
 
 These pages are help files on how to setup and use this repo.
